@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@*@{
+    var laptopImagePath = "~/images/laptop/" + (Model.productTitle + ".jpg");
+}*@
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5 mt-5">
+            <img src="~/images/indexImg.png" class="img-fluid">
+        </div>
+       @* <div class="col-4 mb-5">
+            <img src=@laptopImagePath class="w-100" asp-append-version="true"/>
+
+        </div>*@
+        <div class="col-4 mb-5">
+            Column
+        </div>
+        <div class="col-4 mb-5">
+            Column
+        </div>
+    </div>
+</div>
+@*
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5 mt-5">
+            <img src="~/images/indexImg.png" class="img-fluid" >
+        </div>
+        <div>
+            <h3 style="color:#84c6e6;">Refurbished Laptops</h3>
+            <div class="col-md-4">Column 1 of three</div>
+            <div class="col-md-4">Column 2 of three</div>
+            <div class="col-md-4">Column 3 of three</div>
+
+        </div>
+        <div class="col-12 mb-5 mt-5">
+            <h3 style="color:#84c6e6;">Refurbished PC</h3>
+
+        </div>
+    </div>
+</div>*@
