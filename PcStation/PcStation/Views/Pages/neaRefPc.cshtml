@@ -1,0 +1,159 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+
+<div width="auto;">
+
+    <h5>ΝΕΑ & REF PC(posa proionta yparxoun)</h5>
+
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    ΚΑΤΗΓΟΡΙΕΣ ΠΡΟΪΟΝΤΩΝ
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                    <a class="dropdown-item" asp-area="" asp-controller="Pages" asp-action="neaRefPc">Νέα & Ref PC</a>
+                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="productReturn">Action</a>
+                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="TermsOfUse">Action</a>
+                </ul>
+            </div>
+            <hr />
+            <form class="d-flex">
+                <input class="border border-3 border-top-0 border-start-0 border-end-0" type="search" placeholder="Search"
+                       aria-label="Search" style=" outline: none;">
+                <button class="btn btn-primary" type="submit">Search </button>
+            </form>
+            <hr />
+            <h6>
+                ΦΙΛΤΡΑΡΙΣΜΑ ΜΕ ΤΙΜΗ
+            </h6>
+            <input type="range" name="range" step="10" min="0" max="3000" value="" onchange="rangePrimary.value=value"></br>
+            <span class="currencyinput">
+                <input class="centerText" type="text" id="rangePrimary"/>€
+            </span>
+            <input type="submit" data-inline="true" value="ΦΙΛΤΡΑΡΙΣΜΑ">
+            <hr />
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    ΦΙΛΤΡΑΡΙΣΜΑ ΜΕ
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                    <a class="dropdown-item" asp-area="" asp-controller="Pages" asp-action="neaRefPc">Νέα & Ref PC</a>
+                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="productReturn">Action</a>
+                    <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="TermsOfUse">Action</a>
+                </ul>
+            </div>
+            <hr />
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Ταξινόμηση: Τελευταία
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <a class="dropdown-item" asp-area="" asp-controller="Pages" asp-action="neaRefPc">Ταξινόμηση με βάση τη δημοφιλία</a>
+                            <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="productReturn">Ταξινόμηση κατά τιμή: χαμηλότερη σε μεγαλύτερη</a>
+                            <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="TermsOfUse">Ταξινόμηση κατά τιμή: υψηλή προς χαμηλή</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6>Βλέπετε 1–12 από 878 αποτελέσματα</h6>
+                </div>
+                <div class="col">
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <span class="page-link">Previous</span>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active" aria-current="page">
+                                <span class="page-link">2</span>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>               
+            </div>
+            <div class="row">
+                <div class="col-4 mb-5">
+                    <img src="~/images/laptop/L-3017-SQ.jpg" class="w-95 center" asp-append-version="true" />
+                    <p>DELL Laptop 5480, i5-6300U, 8GB, 128GB M.2, 14", Cam, REF FQ</p>
+                </div>
+                <div class="col-4 mb-5">
+                    <img src="~/images/laptop/L-3017-SQ.jpg" class="w-95 center" asp-append-version="true" />
+                    <p>DELL Laptop 5480, i5-6300U, 8GB, 128GB M.2, 14", Cam, REF FQ</p>
+                </div>
+                <div class="col-4 mb-5">
+                    <img src="~/images/laptop/L-3017-SQ.jpg" class="w-95 center" asp-append-version="true" />
+                    <p>DELL Laptop 5480, i5-6300U, 8GB, 128GB M.2, 14", Cam, REF FQ</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 mb-5">
+                    <img src="~/images/laptop/L-3017-SQ.jpg" class="w-95 center" asp-append-version="true" />
+                    <p>DELL Laptop 5480, i5-6300U, 8GB, 128GB M.2, 14", Cam, REF FQ</p>
+                </div>
+                <div class="col-4 mb-5">
+                    <img src="~/images/laptop/L-3017-SQ.jpg" class="w-95 center" asp-append-version="true" />
+                    <p>DELL Laptop 5480, i5-6300U, 8GB, 128GB M.2, 14", Cam, REF FQ</p>
+                </div>
+                <div class="col-4 mb-5">
+                    <img src="~/images/laptop/L-3017-SQ.jpg" class="w-95 center" asp-append-version="true" />
+                    <p>DELL Laptop 5480, i5-6300U, 8GB, 128GB M.2, 14", Cam, REF FQ</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 mb-5">
+                    <img src="~/images/laptop/L-3017-SQ.jpg" class="w-95 center" asp-append-version="true" />
+                    <p>DELL Laptop 5480, i5-6300U, 8GB, 128GB M.2, 14", Cam, REF FQ</p>
+                </div>
+                <div class="col-4 mb-5">
+                    <img src="~/images/laptop/L-3017-SQ.jpg" class="w-95 center" asp-append-version="true" />
+                    <p>DELL Laptop 5480, i5-6300U, 8GB, 128GB M.2, 14", Cam, REF FQ</p>
+                </div>
+                <div class="col-4 mb-5">
+                    <img src="~/images/laptop/L-3017-SQ.jpg" class="w-95 center" asp-append-version="true" />
+                    <p>DELL Laptop 5480, i5-6300U, 8GB, 128GB M.2, 14", Cam, REF FQ</p>
+                </div>
+            </div>
+            <div class="row">
+             
+                <div class="col">
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <span class="page-link">Previous</span>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active" aria-current="page">
+                                <span class="page-link">2</span>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/site.js" asp-append-version="true"></script>
+

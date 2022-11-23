@@ -1,0 +1,101 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.headerEspa {
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#000000 0%,#2193BF 100%);
+    width: auto;
+    height: 55px;
+}
+
+.headerEspaLogo {
+    float: right;
+    height: 50px;
+    margin-right: 75px;
+}
+
+.headerLogo {
+    height: auto;
+    background-color: #FFFFFF;
+    margin-left: 65px;
+}
+
+.product-img {
+    transform: scale(1.05);
+}
+
+.centerText {
+    text-align: center;
+}
+
+
+.currencyinput {
+    /*border: 5px inset #ccc;*/
+}
+
+.currencyinput input {
+    border: 0;
+}
+
+.LayoutLinks {
+    color: black;
+    font-weight: bold;
+}
+
+.navTextSize {
+    font-size: 11px; 
+}
+
+.removePadding{
+    padding:0;
+}
+
+
+.navBorder {
+    box-shadow: 0 0 10px 0 rgb(33 147 191 / 52%);
+    margin:10px 0px;
+}
+.menuItem {
+    border: 0;
+    font-weight: bold;
+    font-size: 15px;
+    --bs-btn-box-shadow: 0
+}
+    .menuItem.show {
+        background-color: transparent !important;
+    } 
+
+/*.navArrow {
+    border: 0;
+    padding-top:2px;
+    --bs-btn-box-shadow: 0
+}*/
+/*.navArrow:hover{
+    background-color:transparent;
+}*/
+
+
+.dropdown-item{
+    background-color:white;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
