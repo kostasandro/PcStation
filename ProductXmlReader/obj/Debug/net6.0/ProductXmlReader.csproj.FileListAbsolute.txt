@@ -1,0 +1,15 @@
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\bin\Debug\net6.0\ProductXmlReader.exe
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\bin\Debug\net6.0\ProductXmlReader.deps.json
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\bin\Debug\net6.0\ProductXmlReader.runtimeconfig.json
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\bin\Debug\net6.0\ProductXmlReader.dll
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\bin\Debug\net6.0\ProductXmlReader.pdb
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\ProductXmlReader.csproj.AssemblyReference.cache
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\ProductXmlReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\ProductXmlReader.AssemblyInfoInputs.cache
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\ProductXmlReader.AssemblyInfo.cs
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\ProductXmlReader.csproj.CoreCompileInputs.cache
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\ProductXmlReader.dll
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\refint\ProductXmlReader.dll
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\ProductXmlReader.pdb
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\ProductXmlReader.genruntimeconfig.cache
+C:\Users\Konstantinos\source\repos\PcStation\ProductXmlReader\obj\Debug\net6.0\ref\ProductXmlReader.dll
